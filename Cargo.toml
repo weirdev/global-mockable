@@ -1,0 +1,12 @@
+[package]
+name = "global_mockable"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "global_mockable"
+crate-type = ["rlib"]
+
+[dependencies.tokio]
+version = "1.41.1"
+features = ["sync", "rt-multi-thread", "macros"]
